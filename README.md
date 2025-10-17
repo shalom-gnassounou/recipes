@@ -1,16 +1,53 @@
-# recipes
+#  Recette App
 
-App to have a list a recipes and add recipes too
+## Description
+Cette application Flutter permet de parcourir et consulter des recettes de cuisine.  
+Elle comprend :  
+- Une **page d’accueil** avec un message de bienvenue et des recettes mises en avant.  
+- Une **liste complète de recettes** avec images, titres et descriptions.  
+- Une **page de détail** pour chaque recette.  
+- Un **formulaire d’ajout de recette** accessible depuis la nav bar.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Fonctionnalités
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Affichage de plusieurs recettes sous forme de **cartes** (`RecipeCard`)  
+- **Navigation** vers la page détail (`RecipeDetail`)  
+- **Formulaire** pour ajouter une nouvelle recette avec validation des champs  
+- **Nav bar** personnalisée
+
+---
+
+## Screenshots
+![Page d'accueil](screenshots/home_page.png)
+![Détail d'une recette](screenshots/detail.png)
+![Formulaire ajout recette](screenshots/add_recipe.png)
+![List des recettes](screenshots/list.png)
+
+
+
+---
+
+## Structure du projet
+lib/
+├── main.dart
+├── pages/
+│ ├── recipe_list.dart
+│ ├── add_recipe.dart
+├── widgets/
+│ ├── recipe_card.dart
+│ └── nav_bar.dart
+│ └── recipe_detail.dart
+
+## Comment utiliser l’application
+
+1. Cloner le dépôt :  
+git clone <https://github.com/shalom-gnassounou/recipes>
+Installer les dépendances :
+flutter pub get
+Lancer l’application :
+flutter run
+

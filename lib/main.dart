@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipes/screens/recipe_list.dart';
 
 import 'screens/home_page.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: HomePage(),
+      home: RecipeList(),
     );
   }
 }

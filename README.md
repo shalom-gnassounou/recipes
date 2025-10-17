@@ -22,10 +22,10 @@ Elle comprend :
 ---
 
 ## Screenshots
-![Page d'accueil](screenshots/home_page.png)
-![Détail d'une recette](screenshots/detail.png)
-![Formulaire ajout recette](screenshots/add_recipe.png)
-![List des recettes](screenshots/list.png)
+![Page d'accueil](screenshot/home_page.png)
+![Détail d'une recette](screenshot/detail.png)
+![Formulaire ajout recette](screenshot/add_recipe.png)
+![List des recettes](screenshot/list.png)
 
 
 

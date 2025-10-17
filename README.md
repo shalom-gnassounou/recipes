@@ -12,6 +12,11 @@ Elle comprend :
 
 ---
 
+## Wireframe
+
+Voici le wireframe réalisé avant le développement de l’application :  
+[Figma Wireframe – App Recettes](https://www.figma.com/design/5UOLK6fH7mL2LbswCbNCw5/wireframe-app-recettes?node-id=0-1&p=f&t=bzZ5b2NFkuYKhFYp-0)
+---
 ## Fonctionnalités
 
 - Affichage de plusieurs recettes sous forme de **cartes** (`RecipeCard`)  
@@ -22,10 +27,10 @@ Elle comprend :
 ---
 
 ## Screenshots
-![Page d'accueil](screenshot/home_page.png)
-![Détail d'une recette](screenshot/detail.png)
-![Formulaire ajout recette](screenshot/add_recipe.png)
-![List des recettes](screenshot/list.png)
+[Page d'accueil](screenshot/home_page.png)
+[Détail d'une recette](screenshot/detail.png)
+[Formulaire ajout recette](screenshot/add_recipe.png)
+[List des recettes](screenshot/list.png)
 
 
 

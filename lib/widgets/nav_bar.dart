@@ -23,6 +23,9 @@ class _NavBarState extends State<NavBar> {
       case 1:
         Navigator.pushNamed(context, '/list');
         break;
+      case 2:
+        Navigator.pushNamed(context, '/add');
+        break;
     }
   }
 

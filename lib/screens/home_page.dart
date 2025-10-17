@@ -69,6 +69,7 @@ class HomePage extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                     ),
                     onPressed: () {
+                      Navigator.pushNamed(context,  '/list');
                     },
                     child: const Text(
                       'Voir plus de recettes ',

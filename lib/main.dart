@@ -14,7 +14,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: RecipeList(),
+      home: HomePage(),
+      routes: {
+        '/home': (context) => const HomePage(),
+        '/list': (context) => const RecipeList(),
+
+      },
+
     );
   }
 }

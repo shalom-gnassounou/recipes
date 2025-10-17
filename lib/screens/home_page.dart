@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recipes/widgets/nav_bar.dart';
 import 'package:recipes/widgets/recipe_card.dart';
+import 'package:recipes/widgets/recipe_detail.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -38,25 +39,58 @@ class HomePage extends StatelessWidget {
                 ),
                 SizedBox(height: 90),
                 RecipeCard(
-                  title: "Des pates carbonara",
+                  title: "Pates carbonara",
                   imagePath:
                       "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
                   description: "Des pates à la carbonara classique",
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => RecipeDetail(
+                          title: " Pates carbonara",
+                          imagePath:
+                              "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+                        ),
+                      ),
+                    );
+                  },
                 ),
                 RecipeCard(
                   title: "Burger Classique",
                   imagePath:
                       "https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg",
                   description: "Un burger maison délicieux",
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => RecipeDetail(
+                          title: "Burger Classique",
+                          imagePath:
+                              "https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg",
+                        ),
+                      ),
+                    );
+                  },
                 ),
                 RecipeCard(
                   title: "Salade Fraicheur",
                   imagePath:
                       "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
                   description: "Salade legère pleinne de fraicheur et de gout",
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => RecipeDetail(
+                          title: "Salade Fraicheur",
+                          imagePath:
+                              "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+                        ),
+                      ),
+                    );
+                  },
                 ),
                 const SizedBox(height: 30),
                 Center(
@@ -66,10 +100,13 @@ class HomePage extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 24,
+                        vertical: 12,
+                      ),
                     ),
                     onPressed: () {
-                      Navigator.pushNamed(context,  '/list');
+                      Navigator.pushNamed(context, '/list');
                     },
                     child: const Text(
                       'Voir plus de recettes ',

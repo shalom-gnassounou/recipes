@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipes/screens/recipe_list.dart';
 
 import 'screens/home_page.dart';
 
@@ -14,6 +15,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       home: HomePage(),
+      routes: {
+        '/home': (context) => const HomePage(),
+        '/list': (context) => const RecipeList(),
+
+      },
+
     );
   }
 }

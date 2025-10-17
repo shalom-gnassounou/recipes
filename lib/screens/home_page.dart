@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
           SafeArea(
             child: Column(
               children: [
-                SizedBox(height: 130),
+                SizedBox(height: 110),
                 Center(
                   child: Text(
                     "Bienvenue sur ton app de recette",

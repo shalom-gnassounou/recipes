@@ -22,7 +22,7 @@ class RecipeCard extends StatelessWidget {
         margin: const EdgeInsets.only(bottom: 12),
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: Colors.green,
+          color: Color(0xFF357875),
           borderRadius: BorderRadius.circular(12),
         ),
         child: Row(
@@ -52,7 +52,7 @@ class RecipeCard extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
-                      color: Color(0xFFC6A169),
+                      color: Colors.black,
                     ),
                     overflow: TextOverflow.ellipsis,
                     maxLines: 1,
